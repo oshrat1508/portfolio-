@@ -20,7 +20,7 @@ export default function About() {
       <input className=' border-b-2 rounded-t-md outline-none p-1 border-purple-800 my-5 ' type="email" placeholder='Enter Your Email' />
       <textarea className=' border-b-2 rounded-t-md outline-none p-1 border-purple-800 h-20 mb-3' type="text"  placeholder='Enter Your massege' />
       
-      <button className='p-2 bg-slate-400 rounded mt-2 '>send</button>
+      <button className='p-2 bg-slate-400 rounded mt-2 mb-10 '>send</button>
       </div>
     </section>   
 </section>

@@ -14,7 +14,7 @@ export default function Home() {
     <div className="flex text-2xl w-36 justify-around  mb-10"> <FaLinkedin className="cursor-pointer"/> <FaAddressCard className="cursor-pointer"/> <FaGithubSquare />  </div>
    </div>
    <div className="md:h-[55%] md:w-72 w-48 h-[40%]  border-4 border-fuchsia-800 md:right-52 right-20 top-[380px] md:top-28 rounded-md absolute "></div>
-   <div className="md:h-[55%] md:w-72 w-48 h-[40%]  border-4 border-[#673964] md:right-40 right-10 top-[320px] md:top-40 rounded-md absolute"></div>
+   <div className="md:h-[55%] md:w-72 w-48 h-[40%]  border-4 border-[#673964] md:right-40 right-10 top-[310px] md:top-40 rounded-md absolute"></div>
    <img className='h-[60%] rounded-md md:w-72 w-48 z-10 self-center md:self-auto' src={photo1} alt="" />
     </section>
   );
