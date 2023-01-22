@@ -18,9 +18,9 @@ export default function HeaderNav() {
 
       <ul className=" flex md:flex-col justify-center items-center fixed md:top-0 md:left-0 p-1 md:h-screen  md:w-32  ">
         <li className={listesponsive}><a href="#"><BiHomeAlt/></a> </li>
+        <li className={listesponsive}> <a href="#skills"><GiBrain/> </a></li>      
+        <li className={listesponsive}><a href="#portfolio"><BsFillJournalBookmarkFill/> </a></li>  
         <li className={listesponsive}><a href="#about"><BsPerson/></a></li>
-        <li className={listesponsive}> <a href="#skills"><GiBrain/> </a></li>
-        <li className={listesponsive}><a href="#portfolio"><BsFillJournalBookmarkFill/> </a></li>
         {/* <li className={listesponsive}><GoMailRead/></li> */}
       </ul>
 </div>
