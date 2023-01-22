@@ -7,7 +7,7 @@ export default function About() {
 
   
   return (
-    <section id='about' className=' h-[60vh] flex flex-col md:flex-row md:ml-36  justify-center mt-32 md:mt-9 '>
+    <section id='about' className=' h-[60vh] flex flex-col md:flex-row md:ml-36 mb-16 justify-center mt-32 md:mt-9 '>
       <div className='md:w-[50%] w-screen flex flex-col'>
       <h1 className='text-3xl mb-5 ml-2'>About my self ...</h1>
       <div className= ' md:w-[70%]  p-2 md:p-0  flex flex-col justify-around  md:flex-row   '>
@@ -20,7 +20,7 @@ export default function About() {
       <input className=' border-b-2 rounded-t-md outline-none p-1 border-purple-800 my-5 ' type="email" placeholder='Enter Your Email' />
       <textarea className=' border-b-2 rounded-t-md outline-none p-1 border-purple-800 h-20 mb-3' type="text"  placeholder='Enter Your massege' />
       
-      <button className='p-2 bg-slate-400 rounded mt-2 mb-10 '>send</button>
+      <button className='p-2 bg-slate-400 rounded mt-2  '>send</button>
       </div>
     </section>   
 </section>
