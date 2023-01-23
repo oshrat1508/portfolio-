@@ -7,7 +7,7 @@ export default function About() {
 
   
   return (
-    <section id='about' className=' h-[60vh] flex flex-col md:flex-row md:ml-36 mb-16 justify-center mt-10 md:mt-9 '>
+    <section id='about' className=' h-[60vh] flex flex-col md:flex-row md:ml-36 mb-16 md:mb-0 justify-center mt-10 md:mt-9 '>
       <div className='md:w-[50%] w-screen flex flex-col'>
       <h1 className='text-3xl mb-5 ml-2'>About my self ...</h1>
       <div className= ' md:w-[70%]  p-2 md:p-0  flex flex-col justify-around  md:flex-row   '>
