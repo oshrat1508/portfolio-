@@ -7,11 +7,16 @@ export default function About() {
 
   
   return (
-    <section id='about' className=' h-[60vh] flex flex-col md:flex-row md:ml-36 mb-16 md:mb-0 justify-center mt-10 md:mt-9 '>
+    <section id='about' className=' md:h-[60vh] flex flex-col md:flex-row md:ml-36 mb-16 md:mb-0 justify-center mt-10 md:mt-9 '>
       <div className='md:w-[50%] w-screen flex flex-col'>
       <h1 className='text-3xl mb-5 ml-2'>About my self ...</h1>
       <div className= ' md:w-[70%]  p-2 md:p-0  flex flex-col justify-around  md:flex-row   '>
-      <div className='  flex  text-lg items-center'> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi deserunt optio modi est explicabo? Fugit dolore rem exercitationem labore quos esse commodi architecto aspernatur. Repellat temporibus, nesciunt inventore debitis nulla quas id architecto doloremque. Ex aliquid iusto debitis perferendis nobis?</div></div>
+      <div className='  flex  text-lg items-center'> Expected graduation from the Full Stack course at Tech Career, Technology Training center December 2022
+Can work independently, but also an excellent team player.
+Outstanding interpersonal and communication skills.
+Experience in work that required computerized and verbal communication, exceeding performance expectations.
+Excellent at project organization and prioritization of tasks in high pressure situations.
+Quick self learner, highly motivated to succeed.</div></div>
    </div>  
    <section className=' md:w-[50%] w-[100%] mt-10 flex flex-col items-center'>
       {/* <h1 className='text-4xl w-3/4 text-start mt-36 mb-16'> Contant</h1> */}

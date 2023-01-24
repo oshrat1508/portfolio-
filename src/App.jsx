@@ -11,7 +11,7 @@ export default function App() {
   return (
     <div className="">
       <Navbar />
-      <Home className=''/>
+      <Home />
       <Experience/>
       <Portfolio/>
       <About/>

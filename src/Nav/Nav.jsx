@@ -6,13 +6,24 @@ import {BiHomeAlt} from 'react-icons/bi'
 import {GiBrain,} from 'react-icons/gi'
 import {GoMailRead} from 'react-icons/go'
 export default function HeaderNav() {
- 
+  const [navSize, setnavSize] = useState("10rem");
+  const [navColor, setnavColor] = useState("transparent");
+  const listenScrollEvent = () => {
+    window.scrollY > 10 ? setnavColor("md:bg-transparent bg-white") : setnavColor("bg-transparent");
+    window.scrollY > 10 ? setnavSize("4rem") : setnavSize("10rem");
+  };
+  React.useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent);
+    return () => {
+      window.removeEventListener("scroll", listenScrollEvent);
+    };
+  }, []);
   const [nav, setNav] = useState(false);
   const [listesponsive, setlistesponsive] = useState(
     "px-4 cursor-pointer capitalize p-4 text-2xl rounded-full text-[#673964] m-0.5 md:m-2"
   );
   return (
-    <div className="flex md:justify-between items-center justify-center w-screen fixed h-20  z-20 ">
+    <div className={`flex md:justify-between items-center justify-center w-screen fixed h-16  z-20 ${navColor}`} >
 
 
 
