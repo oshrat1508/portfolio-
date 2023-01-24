@@ -4,7 +4,7 @@ import { DiJavascript ,DiHtml5 ,DiSass,DiReact ,DiNodejsSmall,DiBootstrap ,DiPyt
 import { SiTailwindcss } from "react-icons/si";
 export default function Experience() {
   return (
-    <section id='skills' className='md:min-w-[60%] h-60 w-full mt-20 md:mt-0 flex justify-center  flex-col items-center   '>
+    <section id='skills' className='md:min-w-[60%] h-80 w-full mt-20 md:mt-0 flex justify-center  flex-col items-center   '>
       <h1 className='text-xl font-medium underline'>Skills</h1>
     <div className=' flex flex-col md:w-3/5 md:justify-around justify-center  md:flex-row mt-5'  >
       

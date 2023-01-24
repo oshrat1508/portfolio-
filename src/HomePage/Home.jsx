@@ -15,8 +15,8 @@ export default function Home() {
     <div className="animate-bounce flex flex-col items-center w-36"><FaArrowUp className=" text-fuchsia-900"/>
    <span className="font-bold text-xs mt-2">download my resume</span> </div>
    </div>
-   <div className="md:h-[55%] md:w-72 w-48 h-[40%]  border-4 border-fuchsia-800 md:right-52 right-32 top-[440px] md:top-28 rounded-md absolute "></div>
-   <div className="md:h-[55%] md:w-72 w-48 h-[40%]  border-4 border-[#673964] md:right-40 right-16 top-[380px] md:top-40 rounded-md absolute"></div>
+   <div className="md:h-[55%] md:w-72 w-48 h-64  border-4 border-fuchsia-800 md:right-52 right-36 top-[420px] md:top-28 rounded-md absolute "></div>
+   <div className="md:h-[55%] md:w-72 w-48 h-64  border-4 border-[#673964] md:right-40 right-16 top-[370px] md:top-40 rounded-md absolute"></div>
    <img className='h-[60%] rounded-md md:w-72 w-48 z-10 self-center md:self-auto' src={photo1} alt="" />
     </section>
   );
