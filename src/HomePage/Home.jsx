@@ -2,7 +2,7 @@ import React from "react";
 import {FaLinkedin ,FaArrowUp, FaAddressCard ,FaGithubSquare} from 'react-icons/fa'
 import { useState } from "react";  
 import photo1 from '../assent/osh.jpg'
-import resume from '../assent/Cream Minimalist Professional Resume (4).pdf'
+import resume from '../assent/oshratbalay-resume-pdf.pdf'
 export default function Home() {
 
 
